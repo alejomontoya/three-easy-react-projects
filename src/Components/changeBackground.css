@@ -1,0 +1,25 @@
+:root {
+    --background: skyblue;
+}
+
+body {
+    background-color: var(--background);  
+    text-align: center;
+    color: white;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 75px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    word-break: break-all;
+}
+.button__change {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 25px;
+}

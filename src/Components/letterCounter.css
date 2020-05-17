@@ -1,0 +1,27 @@
+body {
+    background-color: skyblue;  
+    text-align: center;
+    color: white;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 75px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    word-break: break-all;
+}
+
+.count {
+    display: grid;
+    width: 275px;
+    margin:auto;
+    grid-template-columns: 1fr;
+}
+.input__count {
+    height: 30px;
+    border: 1px solid black;
+}
+.letter__count {
+    text-align: left;
+}

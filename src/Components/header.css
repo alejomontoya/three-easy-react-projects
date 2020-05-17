@@ -1,0 +1,22 @@
+.header {
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    justify-content: center;
+    list-style: none;
+}
+a {
+    border: none;
+    border-radius: .5em;
+    margin-top: 0;
+    padding: .7em 2em;
+    background: red;
+    color: white;
+    text-decoration: none;
+}

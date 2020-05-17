@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import Header from './Components/header'
+import Counter  from './Components/counter'
+import LetterCounter  from './Components/letterCounter' 
+import ChangeBackground from './Components/changeBackground'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <Router>
+      <div>
+        <Header />
+        <Switch>
+          <Route path="/change-background">
+            <ChangeBackground />
+          </Route>
+          <Route path="/letter-counter">
+            <LetterCounter />
+          </Route>
+          <Route path="/">
+            <Counter />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+    )
 }
 
 export default App;
