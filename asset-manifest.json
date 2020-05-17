@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/alejomontoya/three-easy-react-projects/static/css/main.778f9016.chunk.css",
+    "main.js": "/alejomontoya/three-easy-react-projects/static/js/main.4c966815.chunk.js",
+    "main.js.map": "/alejomontoya/three-easy-react-projects/static/js/main.4c966815.chunk.js.map",
+    "runtime-main.js": "/alejomontoya/three-easy-react-projects/static/js/runtime-main.041f75f0.js",
+    "runtime-main.js.map": "/alejomontoya/three-easy-react-projects/static/js/runtime-main.041f75f0.js.map",
+    "static/js/2.220beef5.chunk.js": "/alejomontoya/three-easy-react-projects/static/js/2.220beef5.chunk.js",
+    "static/js/2.220beef5.chunk.js.map": "/alejomontoya/three-easy-react-projects/static/js/2.220beef5.chunk.js.map",
+    "index.html": "/alejomontoya/three-easy-react-projects/index.html",
+    "precache-manifest.b2e818a7e053a564d6774ed93338c470.js": "/alejomontoya/three-easy-react-projects/precache-manifest.b2e818a7e053a564d6774ed93338c470.js",
+    "service-worker.js": "/alejomontoya/three-easy-react-projects/service-worker.js",
+    "static/css/main.778f9016.chunk.css.map": "/alejomontoya/three-easy-react-projects/static/css/main.778f9016.chunk.css.map",
+    "static/js/2.220beef5.chunk.js.LICENSE.txt": "/alejomontoya/three-easy-react-projects/static/js/2.220beef5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.041f75f0.js",
+    "static/js/2.220beef5.chunk.js",
+    "static/css/main.778f9016.chunk.css",
+    "static/js/main.4c966815.chunk.js"
+  ]
+}
